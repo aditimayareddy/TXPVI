@@ -3,7 +3,7 @@
 
 This project aims to produce Partisan Voter Index(PVI) metrics for the upper and lower Texas State Legislatures, and see if there is meaningful difference in metrics calculated using national election data vs state-wide election data.
 
-**What is Partisan Voter Index?**
+### What is Partisan Voter Index?
 
 The Cook Political Report's Partisan Voter Index (CPVI) is a measure of how strongly a state or congressional district leans towards the Republican or Democratic party, compared to the country as a whole.
 
@@ -13,14 +13,14 @@ Traditionally, PVI for a congressional district has been calculated by comparing
 
 This project aims to produce PVI metrics for *state legislative districts*. The 'baseline' will be adapted to factor in state-wide executive office election returns, as well as presidential election returns from that state for last two presidential elections.
 
-**How to Calculate Partisan Voter Index for a State Legislature after Redistricting**
+### How to Calculate Partisan Voter Index for a State Legislature after Redistricting
 
 Texas Enacted new state legislative district boundaries after the 2020 census.
 Calculating the PVI in a redistricting year requires matching vote tallies from previous elections to the *new* geographic boundaries of legislative districts.
 
 This project uses precint-level election returns for 2016, 2018 and 2020, and will match voting precint geographies for each year of election returns to the 2022 state legislative district they fall under.
 
-**Data Sources**
+## Data Sources
 
 Many thanks to the [Voting Science and Elections Team (VEST)](https://dataverse.harvard.edu/dataverse/electionscience) for their painstaking compilation and validation of election returns by precinct! Shapefiles for 2022 and 2012-2021 legislative districts were downloaded from [Texas's Capital Data Portal](https://data.capitol.texas.gov/)
 
