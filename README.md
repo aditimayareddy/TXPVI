@@ -22,10 +22,21 @@ This project uses precint-level election returns for 2016, 2018 and 2020, and wi
 
 **Data Sources**
 
-Many thanks to the Voting Science and Elections Team (VEST) for their painstaking compilation and validation of election returns by precinct!
+Many thanks to the [Voting Science and Elections Team (VEST)](https://dataverse.harvard.edu/dataverse/electionscience) for their painstaking compilation and validation of election returns by precinct!
 
 Shapefiles for 2022 and 2012-2021 legislative districts were downloaded from [Texas's Capital Data Portal](https://data.capitol.texas.gov/)
 
+
 Voting and Election Science Team, 2018, "2016 Precinct-Level Election Results", https://doi.org/10.7910/DVN/NH5S2I, Harvard Dataverse, V83
+
 Voting and Election Science Team, 2019, "2018 Precinct-Level Election Results", https://doi.org/10.7910/DVN/UBKYRU, Harvard Dataverse, V59
+
 Voting and Election Science Team, 2020, "2020 Precinct-Level Election Results", https://doi.org/10.7910/DVN/K7760H, Harvard Dataverse, V35
+
+Texas Legislative Council, 2022, "PLANH2316", Retrieved from https://data.capitol.texas.gov/dataset/planh2316, Texas Capital Data Portal
+
+Texas Legislative Council, 2022, "PLANS2168", Retrieved from https://data.capitol.texas.gov/dataset/plans2168, Texas Capital Data Portal
+
+Texas Legislative Council, 2021, "PLANH283", Retrieved from https://data.capitol.texas.gov/dataset/planplanh283, Texas Capital Data Portal
+
+Texas Legislative Council, 2021, "PLANS148", Retrieved from https://data.capitol.texas.gov/dataset/plans148, Texas Capital Data Portal
