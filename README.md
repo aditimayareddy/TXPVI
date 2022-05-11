@@ -25,7 +25,7 @@ This project uses precint-level election returns for 2016, 2018 and 2020, and wi
 Many thanks to the [Voting Science and Elections Team (VEST)](https://dataverse.harvard.edu/dataverse/electionscience) for their painstaking compilation and validation of election returns by precinct! Shapefiles for 2022 and 2012-2021 legislative districts were downloaded from [Texas's Capital Data Portal](https://data.capitol.texas.gov/)
 
 
- <font size="4">Voting and Election Science Team, 2018, "2016 Precinct-Level Election Results", https://doi.org/10.7910/DVN/NH5S2I, Harvard Dataverse, V83 </font>
+<font size="2">Voting and Election Science Team, 2018, "2016 Precinct-Level Election Results", https://doi.org/10.7910/DVN/NH5S2I, Harvard Dataverse, V83 </font>
 
 Voting and Election Science Team, 2019, "2018 Precinct-Level Election Results", https://doi.org/10.7910/DVN/UBKYRU, Harvard Dataverse, V59
 
