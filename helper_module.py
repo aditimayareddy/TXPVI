@@ -41,3 +41,26 @@ def find_rpct(data, cols):
     HD = HD.iloc[:,start:]
     print('done')
     return SD, HD
+
+def compress_rpct(item):
+    div = len(item.columns)
+    label = 'alr' + item.columns[1][4:6]
+    item[label] = item.mean(axis=1)
+    item = item[[label]]
+    print(label, 'done')
+    return item
+
+def to_bin(item): 
+    if item <= -20:
+        bin_ = 'Solid D'
+    elif item > -20 and item <= - 5:
+        bin_ = 'Likely D'
+    elif item > -5 and item < 5:
+        bin_ = 'Competitive'
+    elif item > 5 and item < 20:
+        bin_ = 'Likely R'
+    elif item > 20:
+        bin_ = 'Solid R'
+    else:
+        bin_ = 'Unknown'
+    return bin_
