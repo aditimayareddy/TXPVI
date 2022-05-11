@@ -26,3 +26,18 @@ def label_maker(n):
         return 'fed'
     else:
         return 'alr'
+
+def find_rpct(data, cols):
+    SD = data.groupby('SD').sum()
+    HD = data.groupby('HD').sum()
+    start = (len(cols)*2) + 1
+    for item in cols:
+        r = str(item) + '_r'
+        tot = str(item) + '_tot'
+        rpct = str(item) + '_rpct'
+        SD[rpct] = SD[r]/SD[tot]
+        HD[rpct] = HD[r]/HD[tot]
+    SD = SD.iloc[:,start:]
+    HD = HD.iloc[:,start:]
+    print('done')
+    return SD, HD
