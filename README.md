@@ -1,5 +1,5 @@
 # Partisan Voter Index for Texas State Legislatures in 2022
-Exploratory Data Analysis and Visualization for Predicting Relative Political Lean for 2022 State Legislative districts
+## Exploratory Data Analysis and Visualization for Predicting Relative Political Lean for 2022 State Legislative districts
 
 This project aims to produce Partisan Voter Index(PVI) metrics for the upper and lower Texas State Legislatures, and see if there is meaningful difference in metrics calculated using national election data vs state-wide election data.
 
@@ -22,9 +22,7 @@ This project uses precint-level election returns for 2016, 2018 and 2020, and wi
 
 **Data Sources**
 
-Many thanks to the [Voting Science and Elections Team (VEST)](https://dataverse.harvard.edu/dataverse/electionscience) for their painstaking compilation and validation of election returns by precinct!
-
-Shapefiles for 2022 and 2012-2021 legislative districts were downloaded from [Texas's Capital Data Portal](https://data.capitol.texas.gov/)
+Many thanks to the [Voting Science and Elections Team (VEST)](https://dataverse.harvard.edu/dataverse/electionscience) for their painstaking compilation and validation of election returns by precinct! Shapefiles for 2022 and 2012-2021 legislative districts were downloaded from [Texas's Capital Data Portal](https://data.capitol.texas.gov/)
 
 
 Voting and Election Science Team, 2018, "2016 Precinct-Level Election Results", https://doi.org/10.7910/DVN/NH5S2I, Harvard Dataverse, V83
