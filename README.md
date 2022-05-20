@@ -3,6 +3,8 @@
 
 This project aims to produce Partisan Voter Index(PVI) metrics for the upper and lower Texas State Legislatures, and see if there is meaningful difference in metrics calculated using national election data vs state-wide election data.
 
+Presentation Slides for this project can be found [here](https://www.beautiful.ai/player/-N2Y7vN4NqLSnLvunjGI).
+
 ### What is Partisan Voter Index?
 
 The Cook Political Report's Partisan Voter Index (CPVI) is a measure of how strongly a state or congressional district leans towards the Republican or Democratic party, compared to the country as a whole.
