@@ -18,7 +18,7 @@ def centroid_match(centroid, new_shapefile):
         else:
             pass
         
-        
+#Helper function that labels election returns            
 def label_maker(n):
     if n == 0:
         return 'state'
@@ -27,6 +27,7 @@ def label_maker(n):
     else:
         return 'alr'
 
+#helper function that extracts republican vote percentage for each legislative district    
 def find_rpct(data, cols):
     SD = data.groupby('SD').sum()
     HD = data.groupby('HD').sum()
@@ -42,6 +43,7 @@ def find_rpct(data, cols):
     print('done')
     return SD, HD
 
+#Helper function to compress republican vote percentage across multiple years
 def compress_rpct(item):
     div = len(item.columns)
     label = 'alr' + item.columns[1][4:6]
@@ -50,6 +52,7 @@ def compress_rpct(item):
     print(label, 'done')
     return item
 
+#Helper function that creates 'bins' for raw PVI numbers
 def to_bin(item): 
     if item <= -20:
         bin_ = 'Solid D'
